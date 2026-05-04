@@ -176,3 +176,27 @@ git add .
 git commit -m "ADD: Añadiendo script"
 git push
 history -a
+cp ~/.bash_history ./Historial_comandos_Apellido.txt
+git add .
+rm Historial_comandos_Apellido.txt 
+cp ~/.bash_history ./Historial_comandos_Pagani.txt
+cat Historial_comandos_Pagani.txt 
+git add .
+git commit -m "ADD: Historial de comandos de Pagani" 
+git push
+pwd
+nano script_dir.sh
+cd  
+rm -r materia1
+rm -r materia2
+cd repogit
+cd TP_AySO/
+./script_dir.sh 
+ls
+cd  
+ls
+cd repogit
+cd TP_AySO/
+rm Historial_comandos_Pagani.txt 
+History -a
+history -a
